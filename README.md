@@ -12,4 +12,15 @@ Because of that, it expects NodeJS >= 16.
 -   Eslint with Typescript support
 -   Jest with Typescript support
 -   Prettier
--   Husky (formats your code before each commit using pretty-quick package)
+-   Husky (formats your code before each commit using a package called "pretty-quick")
+
+## Recommendations:
+
+In Visual Studio Code, install the following extensions:
+
+-   "Prettier - Code Formatter", from Prettier
+-   "ESLint", from Microsoft
+
+## Rationale
+
+-   Since I use VSCode, and VSCode uses double quotes when automatically importing modules, I decided to use double-quotes by default for all strings
