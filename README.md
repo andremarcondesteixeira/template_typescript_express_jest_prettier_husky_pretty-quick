@@ -18,6 +18,7 @@ Because of that, it expects NodeJS >= 16.
 
 In Visual Studio Code, install the following extensions:
 
+-   "EditorConfig for VS Code", from EditorConfig
 -   "Prettier - Code Formatter", from Prettier
 -   "ESLint", from Microsoft
 
