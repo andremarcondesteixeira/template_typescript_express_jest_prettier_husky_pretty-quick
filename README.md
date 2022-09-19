@@ -10,7 +10,7 @@ Because of that, it expects NodeJS >= 16.
 -   Express
 -   Typescript
 -   Eslint with Typescript support
--   Jest with Typescript support
+-   Jest with Typescript support (your test code must be written in typescript)
 -   Prettier
 -   Husky (formats your code before each commit using a package called "pretty-quick")
 
