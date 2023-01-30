@@ -1,4 +1,4 @@
-# Express-Typescript With Tooling Boilerplate
+# Boilerplate Nodejs with Typescript project
 
 ## Prerequisites
 
