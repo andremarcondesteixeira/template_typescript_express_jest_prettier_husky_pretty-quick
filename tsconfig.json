@@ -1,14 +1,7 @@
 {
     "extends": "@tsconfig/node18-strictest/tsconfig.json",
-    "include": [
-        "src/**/*.ts",
-        "test/**/*.ts",
-        ".eslintrc.cjs",
-        "jest.config.cjs"
-    ],
-    "exclude": [
-        "./node_modules/**/*"
-    ],
+    "include": ["src/**/*.ts"],
+    "exclude": ["./node_modules/**/*"],
     "compilerOptions": {
         "outDir": "./build"
     }
