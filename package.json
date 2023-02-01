@@ -5,8 +5,8 @@
     "main": "build/index.js",
     "scripts": {
         "prepare": "husky install",
-        "start": "tsc && node build/index.js",
-        "dev": "concurrently \"tsc --watch\" \"nodemon -q build/src/index.js\"",
+        "start": "tsc --project ./tsconfig.build.json && node build/index.js",
+        "dev": "concurrently \"tsc --watch\" \"nodemon -q build/index.js\"",
         "test": "jest"
     },
     "keywords": [],
