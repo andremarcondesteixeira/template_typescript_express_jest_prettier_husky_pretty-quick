@@ -6,7 +6,7 @@
     "scripts": {
         "prepare": "husky install",
         "start": "tsc && node build/index.js",
-        "dev": "concurrently \"tsc --watch\" \"nodemon -q build/index.js\"",
+        "dev": "concurrently \"tsc --watch\" \"nodemon -q build/src/index.js\"",
         "test": "jest"
     },
     "keywords": [],
