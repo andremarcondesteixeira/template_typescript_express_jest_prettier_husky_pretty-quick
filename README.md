@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-This boilerplate uses the "@tsconfig/node16-strictest/tsconfig.json" base tsconfig file.
+This boilerplate uses the `@tsconfig/node16-strictest/tsconfig.json` base `tsconfig.json` file.
 Because of that, it expects NodeJS >= 18.
 
 ## What you get:
@@ -14,7 +14,7 @@ Because of that, it expects NodeJS >= 18.
 -   Prettier
 -   Husky (formats your code before each commit using a package called "pretty-quick")
 
-## Recommendations:
+## Recommended VSCode extensions:
 
 In Visual Studio Code, install the following extensions:
 
@@ -22,6 +22,6 @@ In Visual Studio Code, install the following extensions:
 -   "Prettier - Code Formatter", from Prettier
 -   "ESLint", from Microsoft
 
-## Rationale
+## Prettier config
 
 -   Since I use VSCode, and VSCode uses double quotes when automatically importing modules, I decided to use double-quotes by default for all strings
