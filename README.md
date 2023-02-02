@@ -26,3 +26,8 @@ In Visual Studio Code, install the following extensions:
 ## Prettier config
 
 -   Since I use VSCode, and VSCode uses double quotes when automatically importing modules, I decided to use double-quotes by default for all strings
+
+## Jest config
+
+-   Use the `.tests.ts` extension for your test files
+-   The test files should be written alongside the actual source code, inside `__tests__` folders
